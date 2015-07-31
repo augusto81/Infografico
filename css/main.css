@@ -1,10 +1,7 @@
-.corpo {
-	text-align: center;
+body {
+	margin: 0;
 }
 
 img {
-	border-radius: 15px;
 	width: 100%;
-	}
-
-
+}
