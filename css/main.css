@@ -1,23 +1,20 @@
-.header {
-	width: 100%;
+header {
 	height: 460px;
-  	position: relative;
+	position: relative;
  	background-color: #4c2b3c;
- 	margin: 0;
+ 	padding-top: 40px;
+ 	line-height: 80px;
  }
 
-.luso {
+header p {
 	font-family: 'Nixie One', cursive;
 	text-align: center;
 	color: #fb6d45;
 	font-size: 1.9em;
 	background-color: lightgray;
-	height: 14%;
-	padding-top: 22px;
-	margin-top: 8px;
-}
+	}
 
-.title {
+header h1 {
 	font-family: 'Nixie One', cursive;
 	text-align: center;
 	color: #63aea7;
@@ -27,27 +24,28 @@
 	margin-top: 15px;
 }
 
-.amigos {
-	color: #fb6d45;
-}
-
-.name {
+header h2 {
 	font-family: 'Slackey', cursive;
 	text-align: center;
 	color: #f2f2f2;
 	font-size: 2.3em;
-	padding-top: 5px;
 	}
 
+header h1 span {
+	color: #fb6d45;
+}
+
 .arrow-down {
-	width: 0; 
-	height: 0; 
-	border-left: 22px solid transparent;
-	border-right: 22px solid transparent;
-	border-top: 30px solid #4c2b3c;
-	margin-top: 150px;
-	margin-left: 670px
-	}
+  position: absolute;
+  width: 0px;
+  left: calc(50% - 22px);
+  bottom: -30px;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-top: 30px solid #4c2b3c;
+}
+
+
 
 	
 
