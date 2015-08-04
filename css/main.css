@@ -4,7 +4,7 @@ header {
  	background-color: #4c2b3c;
  	padding-top: 40px;
  	line-height: 80px;
- }
+ 	}
 
 header p {
 	font-family: 'Nixie One', cursive;
@@ -22,7 +22,7 @@ header h1 {
 	height: 12%;
 	padding-top: 30px;
 	margin-top: 15px;
-}
+	}
 
 header h2 {
 	font-family: 'Slackey', cursive;
@@ -33,7 +33,7 @@ header h2 {
 
 header h1 span {
 	color: #fb6d45;
-}
+	}
 
 .arrow-down {
   position: absolute;
@@ -43,7 +43,7 @@ header h1 span {
   border-left: 22px solid transparent;
   border-right: 22px solid transparent;
   border-top: 30px solid #4c2b3c;
-}
+	}
 
 
 
