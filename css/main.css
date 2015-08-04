@@ -1,39 +1,38 @@
 header {
-	height: 460px;
-	position: relative;
- 	background-color: #4c2b3c;
- 	padding-top: 40px;
- 	line-height: 80px;
- 	}
+  position: relative;
+  background-color: #4c2b3c;
+  padding: 20px 0 120px;
+}
 
 header p {
-	font-family: 'Nixie One', cursive;
-	text-align: center;
-	color: #fb6d45;
-	font-size: 1.9em;
-	background-color: lightgray;
-	}
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  color: #fb6d45;
+  font-size: 1.9em;
+  background-color: lightgray;
+  padding: 25px 0;
+}
 
 header h1 {
-	font-family: 'Nixie One', cursive;
-	text-align: center;
-	color: #63aea7;
-	font-size: 5.0em;
-	height: 12%;
-	padding-top: 30px;
-	margin-top: 15px;
-	}
-
-header h2 {
-	font-family: 'Slackey', cursive;
-	text-align: center;
-	color: #f2f2f2;
-	font-size: 2.3em;
-	}
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  color: #63aea7;
+  font-size: 5em;
+  font-weight: 300;
+  margin: 70px 0 0;
+}
 
 header h1 span {
-	color: #fb6d45;
-	}
+  color: #fb6d45;
+}
+
+header h2 {
+  font-family: 'Slackey', cursive;
+  text-align: center;
+  color: #f2f2f2;
+  font-size: 2.3em;
+  margin: 10px 0 0;
+}
 
 .arrow-down {
   position: absolute;
@@ -43,12 +42,4 @@ header h1 span {
   border-left: 22px solid transparent;
   border-right: 22px solid transparent;
   border-top: 30px solid #4c2b3c;
-	}
-
-
-
-	
-
-
-
-
+}
