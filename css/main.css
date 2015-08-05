@@ -34,7 +34,7 @@ header h2 {
   margin: 10px 0 0;
 }
 
-.arrow-down {
+header .arrow-down {
   position: absolute;
   width: 0px;
   left: calc(50% - 22px);
@@ -42,4 +42,5 @@ header h2 {
   border-left: 22px solid transparent;
   border-right: 22px solid transparent;
   border-top: 30px solid #4c2b3c;
+  z-index:1;
 }
