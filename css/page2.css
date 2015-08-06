@@ -1,45 +1,98 @@
-#page1 {
+#page2 {
   background-color: #63aea7;
-  padding: 10vw 10vw;
+  padding: 16vw 10vw;
   position: relative;
   text-align: center;
 }
 
-#page1 .flag-1 {
-  width: 100%;
-}
-
-#page1 .characters {
-  position: absolute;
-  width: 100%;
-  top: 5.5vw;
-  left: 0;
-  font-size: 6.5vw;
-  font-family: 'Nixie One', cursive;
-  text-align: center;
+#page2 h1 {
+  font-family: 'Slackey', cursive;
   color: #f2f2f2;
+  font-size: 12vw;
+  margin-top: -22vw;
+  margin-right: 36vw;
 }
 
-#page1 .chart {
-  width: 60%;
-  margin-top: 3vw;
+#page2 .composition {
+  font-family: 'Nixie One', cursive;
+  color: #4c2b3c;
+  font-size: 1.8vw;
+  margin-top: -10.5vw;
+  margin-right: 36vw;
 }
 
-#page1 .dumbo {
-  width: 16%;
+#page2 .equal {
   position: absolute;
-  top: 56vw;
-  right: 10vw;
+  width: 9.5%;
+  top: -0.6vw;
+  left: 49.5vw;
 }
 
-#page1 nav ul {
+#page2 .square {
+  position: absolute;
+  width: 14%;
+  top: -2.8vw;
+  right: 19vw;
+}
+
+#page2 h2 {
+position: absolute;
+font-size: 6.5vw;
+font-family: 'Slackey', cursive;
+color: #f2f2f2;
+top: -8vw;
+right: 21.5vw; 
+}
+
+#page2 .years {
+position: absolute;
+font-size: 2.6vw;
+font-family: 'Nixie One', cursive;
+color: #f2f2f2;
+top: 2.2vw;
+right: 23.2vw;
+}
+
+#page2 .cases {
+  font-family: 'Nixie One', cursive;
+  color: #f2f2f2;
+  font-size: 1.8vw;
+  margin-top: -5.2vw;
+  margin-left: 47vw;
+}
+
+#page2 .books {
+  width: 78%;
+  margin-top: 5vw;
+}
+
+#page2 .flag-1 {
+  width: 100%;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+}
+
+#page2 .time {
+  position: absolute;
+  font-family: 'Nixie One', cursive;
+  color: #f2f2f2;
+  font-size: 1.8vw;
+  top: 47vw;
+  left: 23vw;
+}
+
+#page2 nav ul {
   list-style: none;
   position: absolute;
-  top: 30vw;
+  top: 10vw;
   right: 10vw;
 }
 
-#page1 nav li a {
+#page2 nav li a {
   display: block;
   margin-bottom: 2.5vw;
   border: 0.3vw solid #f2f2f2;
@@ -48,12 +101,19 @@
   height: 1.4vw;
 }
 
-#page1 nav li.active a, #page1 nav li:hover a {
+#page2 nav li.active a, #page2 nav li:hover a {
   background-color: #f2f2f2;
 }
 
-#page1 hr {
-  margin-top: 6vw;
-  border-style: solid;
-  border-color: #fff;
+#page2 .arrow-down2 {
+  position: absolute;
+  width: 0px;
+  left: calc(50% - 22px);
+  bottom: -30px;
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-top: 30px solid #63aea7;
+  z-index:1;
 }
+
+

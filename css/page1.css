@@ -1,0 +1,59 @@
+#page1 {
+  background-color: #63aea7;
+  padding: 10vw 10vw;
+  position: relative;
+  text-align: center;
+}
+
+#page1 .flag-1 {
+  width: 100%;
+}
+
+#page1 .characters {
+  position: absolute;
+  width: 100%;
+  top: 5.5vw;
+  left: 0;
+  font-size: 6.5vw;
+  font-family: 'Nixie One', cursive;
+  text-align: center;
+  color: #f2f2f2;
+}
+
+#page1 .chart {
+  width: 60%;
+  margin-top: 3vw;
+}
+
+#page1 .dumbo {
+  width: 16%;
+  position: absolute;
+  top: 56vw;
+  right: 10vw;
+}
+
+#page1 nav ul {
+  list-style: none;
+  position: absolute;
+  top: 30vw;
+  right: 10vw;
+}
+
+#page1 nav li a {
+  display: block;
+  margin-bottom: 2.5vw;
+  border: 0.3vw solid #f2f2f2;
+  border-radius: 100%;
+  width: 1.4vw;
+  height: 1.4vw;
+}
+
+#page1 nav li.active a, #page1 nav li:hover a {
+  background-color: #f2f2f2;
+}
+
+#page1 hr {
+  margin-top: 6vw;
+  border-style: solid;
+  border-color: #fff;
+}
