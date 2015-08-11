@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="css/page2.css">
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/page4.css">
- </head>
-  <body>
+    <link rel="stylesheet" href="css/footer.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+  </head>
+  <body id="return">
     <header>
       <p>Uma publicação luso-brasileira</p>
       <h1>Histórias de muitos <span>amigos</span></h1>
@@ -86,6 +88,29 @@
           <li class="active"> <a href="#page4"></a></li>
         <ul>
       </nav>
-    </section>  
+    </section>
+    <footer>
+      <p>Boa leitura!</p>
+      <img src="img/return.svg" class="return" onclick="$j('html,body').animate({scrollTop: $j('#return').offset().top}, 2000);" value="">
+    </footer>
+
+      <script type="text/javascript">
+        var $j = jQuery.noConflict();
+        $j(document).ready(function() {
+        $j(".return").hide();
+        $j(function () {
+        $j(window).scroll(function () {
+        if ($j(this).scrollTop() > 300) {
+        $j('.return').fadeIn();
+      } else {
+        $j('.return').fadeOut();
+      }
+      });
+      $j('.return').click(function() {
+      $j('body,html').animate({scrollTop:0},600);
+    }); 
+    });});
+    </script>
+  
   </body>
 </html>
