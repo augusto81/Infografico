@@ -1,0 +1,22 @@
+footer {
+	background-color: #D3D3D3;
+  padding: 1vw 10vw 0vw;
+  position: relative;
+  text-align: center;
+
+}
+
+footer p {
+  font-family: 'Nixie One', cursive;
+  color: #fb6d45;
+  font-size: 11vw;
+  margin-top: 9vw;
+}
+
+.return {
+  height: 6vw;
+  margin-left: 76vw;
+  margin-bottom: 2vw;
+}
+
+
