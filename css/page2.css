@@ -107,13 +107,12 @@ right: 23.2vw;
 
 #page2 .arrow-down2 {
   position: absolute;
-  width: 0px;
-  left: calc(50% - 22px);
-  bottom: -30px;
-  border-left: 22px solid transparent;
-  border-right: 22px solid transparent;
-  border-top: 30px solid #63aea7;
+  width: 0vw;
+  left: calc(50% - 1.3vw);
+  bottom: -1.8vw;
+  border-left: 1.3vw solid transparent;
+  border-right: 1.3vw solid transparent;
+  border-top: 1.9vw solid #63aea7;
   z-index:1;
 }
-
 
