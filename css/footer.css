@@ -10,12 +10,12 @@ footer p {
   font-family: 'Nixie One', cursive;
   color: #fb6d45;
   font-size: 11vw;
-  margin-top: 9vw;
+  margin-top: 8vw;
 }
 
-.return {
-  height: 6vw;
-  margin-left: 76vw;
+footer img {
+  width: 7%;
+  margin-left: 80vw;
   margin-bottom: 2vw;
 }
 

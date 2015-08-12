@@ -11,9 +11,8 @@
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/page4.css">
     <link rel="stylesheet" href="css/footer.css">
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
   </head>
-  <body id="return">
+  <body>
     <header>
       <p>Uma publicação luso-brasileira</p>
       <h1>Histórias de muitos <span>amigos</span></h1>
@@ -79,7 +78,7 @@
       <p class="readers">até o livro chegar aos leitores brasileiros.</p>
       <img src="img/map.svg" class="map">
       <img src="img/flag-2.svg" class="flag-2">
-      <p class="travel">o equivalente a uma viagem partindo da cidade de São <br>Paulo até o Alaska, nos Estados Unidos</p>
+      <p class="travel">o equivalente a uma viagem partindo da cidade de São <br>Paulo até o Alaska, nos Estados Unidos.</p>
       <nav>
         <ul>
           <li> <a href="#page1"></a></li>
@@ -91,26 +90,7 @@
     </section>
     <footer>
       <p>Boa leitura!</p>
-      <img src="img/return.svg" class="return" onclick="$j('html,body').animate({scrollTop: $j('#return').offset().top}, 2000);" value="">
+      <a href="#" class="return"><img src="img/return.svg"></a>
     </footer>
-
-      <script type="text/javascript">
-        var $j = jQuery.noConflict();
-        $j(document).ready(function() {
-        $j(".return").hide();
-        $j(function () {
-        $j(window).scroll(function () {
-        if ($j(this).scrollTop() > 300) {
-        $j('.return').fadeIn();
-      } else {
-        $j('.return').fadeOut();
-      }
-      });
-      $j('.return').click(function() {
-      $j('body,html').animate({scrollTop:0},600);
-    }); 
-    });});
-    </script>
-  
   </body>
 </html>
