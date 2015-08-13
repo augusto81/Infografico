@@ -1,23 +1,23 @@
 header {
   position: relative;
   background-color: #4c2b3c;
-  padding: 1.2vw 0 10.2vw;
+  padding: 1.8vw 0 10.2vw;
 }
 
 header p {
   font-family: 'Nixie One', cursive;
   text-align: center;
-  color: #fb6d45;
-  font-size: 1.9vw;
-  background-color: #D3D3D3;
-  padding: 1.4vw 0;
+  color: #4d4d4d;
+  font-size: 2.4vw;
+  background-color: #f2f2f2;
+  padding: 2vw 0;
 }
 
 header h1 {
   font-family: 'Nixie One', cursive;
   text-align: center;
   color: #63aea7;
-  font-size: 5vw;
+  font-size: 6.4vw;
   font-weight: 300;
   margin: 4.6vw 0 0;
 }
@@ -30,18 +30,19 @@ header h2 {
   font-family: 'Slackey', cursive;
   text-align: center;
   color: #f2f2f2;
-  font-size: 2.3vw;
+  font-size: 2.8vw;
+  font-weight: 300;
   margin: 1vw 0 0;
 }
 
 header .arrow-down {
   position: absolute;
   width: 0vw;
-  left: calc(50% - 1.3vw);
-  bottom: -1.8vw;
-  border-left: 1.3vw solid transparent;
-  border-right: 1.3vw solid transparent;
-  border-top: 1.9vw solid #4c2b3c;
+  left: calc(50% - 2vw);
+  bottom: -2.4vw;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-top: 2.5vw solid #4c2b3c;
   z-index:1;
 }
 
