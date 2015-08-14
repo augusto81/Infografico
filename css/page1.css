@@ -1,6 +1,6 @@
 #page1 {
   background-color: #63aea7;
-  padding: 10vw 10vw;
+  padding: 10vw 10vw 0;
   position: relative;
   text-align: center;
 }
@@ -46,6 +46,8 @@
   border-radius: 100%;
   width: 1.4vw;
   height: 1.4vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #page1 nav li.active a, #page1 nav li:hover a {
@@ -53,7 +55,7 @@
 }
 
 #page1 hr {
-  margin-top: 6vw;
+  margin: 6vw 0 0;
   border-style: solid;
   border-color: #fff;
 }
