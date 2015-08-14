@@ -30,10 +30,10 @@
       <img src="img/dumbo.svg" class="dumbo">
       <nav>
         <ul>
-          <li class="active"><a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li class="active"><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <hr>
@@ -49,10 +49,10 @@
       <p class="time">Tempo suficiente para lermos 364 livros numa velocidade de 1 livro por semana!</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li class="active"> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <div class="arrow-down2"></div>
@@ -68,10 +68,10 @@
       <p class="equivalent">o equivalente a <span class="numbers">30.000</span>"mijadinhas" do Dumbo</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li class="active"> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <hr>
@@ -85,17 +85,20 @@
       <p class="travel">o equivalente a uma viagem partindo da cidade de São <br>Paulo até o Alaska, nos Estados Unidos.</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li class="active"> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
     </section>
 
     <footer>
       <p>Boa leitura!</p>
-      <a href="#" class="return"><img src="img/return.svg"></a>
+      <a href="#" class="return" onclick="$('body').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"><img src="img/return.svg"></a>
     </footer>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
   </body>
 </html>
