@@ -3,6 +3,7 @@
   padding: 2vw 10vw;
   position: relative;
   text-align: center;
+  height: 70.6vw;
 }
 
 #page4 .kilometers {
@@ -40,8 +41,9 @@
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 2vw;
-  margin-top: -9vw;
-  margin-left: 12.2vw;
+  margin-top: -8.5vw;
+  margin-left: 12vw;
+  width: 55vw;
 }
 
 #page4 nav ul {
