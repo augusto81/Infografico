@@ -106,6 +106,8 @@
   border-radius: 100%;
   width: 1.4vw;
   height: 1.4vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #page2 nav li.active a, #page2 nav li:hover a {
