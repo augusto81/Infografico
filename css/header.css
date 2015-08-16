@@ -1,16 +1,18 @@
 header {
   position: relative;
   background-color: #4c2b3c;
-  padding: 1.8vw 0 10.2vw;
+  padding: 2vw 0 10.2vw;
 }
 
-header p {
+header .band {
   font-family: 'Nixie One', cursive;
   text-align: center;
   color: #4d4d4d;
   font-size: 2.4vw;
   background-color: #f2f2f2;
-  padding: 2vw 0;
+}
+header .band p {
+  line-height: 6.6vw;
 }
 
 header h1 {
@@ -23,10 +25,14 @@ header h1 {
 }
 
 header h1 span {
+  -webkit-animation-delay: 1s;
+  animation-delay: 1s;
   color: #fb6d45;
 }
 
 header h2 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
   font-family: 'Slackey', cursive;
   text-align: center;
   color: #f2f2f2;
