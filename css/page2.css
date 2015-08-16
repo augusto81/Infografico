@@ -3,7 +3,6 @@
   padding: 10vw 10vw 0;
   position: relative;
   text-align: center;
-  height: 60vw;
 }
 
 #page2 .history-amount {
@@ -36,7 +35,7 @@
   position: absolute;
   width: 17%;
   top: 10.8vw;
-  right: 19vw;
+  left: 64.2vw;
 }
 
 #page2 .years-amount {
