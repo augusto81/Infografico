@@ -20,9 +20,156 @@
   color: #f2f2f2;
 }
 
-#page1 .chart {
-  width: 60%;
-  margin-top: 3vw;
+#page1 .chart-men {
+  position: absolute;
+  top: 31vw;
+  left: 42vw;
+  width: 21%;
+  display: none;
+}
+
+#page1 .chart-men-dash {
+  border-top: dashed .3vw #FFF;
+  border-left: dashed .3vw #FFF;
+  position: absolute;
+  bottom: 39vw;
+  left: 58vw;
+  height: 0;
+  width: 0;
+  display: none;
+}
+#page1 .chart-men-dash.done:after {
+  content: "";
+  background-color: #FFF;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.5vw;
+  right: 0;
+  width: .8vw;
+  height: .8vw;
+}
+
+#page1 .chart-men-label {
+  position: absolute;
+  top: 28.4vw;
+  left: 63.8vw;
+  font-family: 'Slackey', cursive;
+  color: #fff;
+  font-size: 4.3vw;
+  margin: 0;
+  width: 15vw;
+  line-height: 2.2vw;
+  display: none;
+}
+#page1 .chart-men-label span {
+  font-size: 2vw;
+  font-family: 'Nixie One', cursive;
+}
+
+#page1 .chart-men-icon {
+  position: absolute;
+  top: 33.8vw;
+  left: 66.8vw;
+  width: 9%;
+  display: none;
+}
+
+#page1 .chart-women {
+  position: absolute;
+  top: 41.2vw;
+  left: 42.8vw;
+  width: 10%;
+  display: none;
+}
+
+#page1 .chart-women-dash {
+  border-top: dashed .3vw #FFF;
+  position: absolute;
+  top: 46vw;
+  right: 53.8vw;
+  width: 0;
+  display: none;
+}
+#page1 .chart-women-dash.done:after {
+  content: "";
+  background-color: #FFF;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.5vw;
+  left: 0;
+  width: .8vw;
+  height: .8vw;
+}
+
+#page1 .chart-women-label {
+  position: absolute;
+  top: 44.2vw;
+  left: 23vw;
+  font-family: 'Slackey', cursive;
+  color: #fff;
+  font-size: 4.3vw;
+  margin: 0;
+  width: 15vw;
+  line-height: 2.4vw;
+  display: none;
+}
+#page1 .chart-women-label span {
+  font-size: 2vw;
+  font-family: 'Nixie One', cursive;
+}
+
+#page1 .chart-women-icon {
+  position: absolute;
+  top: 50.2vw;
+  left: 26vw;
+  width: 9%;
+  display: none;
+}
+
+#page1 .chart-dumbo {
+  position: absolute;
+  top: 41.2vw;
+  left: 51.7vw;
+  width: 2%;
+  display: none;
+}
+
+#page1 .chart-dumbo-dash {
+  border-left: dashed .3vw #FFF;
+  position: absolute;
+  top: 48.3vw;
+  left: 52.6vw;
+  height: 0;
+  display: none;
+}
+#page1 .chart-dumbo-dash.done:after {
+  content: "";
+  background-color: #FFF;
+  border-radius: 100%;
+  position: absolute;
+  bottom: 0vw;
+  right: -0.3vw;
+  width: .8vw;
+  height: .8vw;
+}
+
+#page1 .chart-dumbo-label {
+  position: absolute;
+  top: 55.8vw;
+  left: 47.8vw;
+  font-family: 'Slackey', cursive;
+  color: #fff;
+  font-size: 4.3vw;
+  margin: 0;
+  width: 9vw;
+  line-height: 5.5vw;
+  display: none;
+}
+#page1 .chart-dumbo-label span {
+  font-size: 1.8vw;
+  font-family: 'Nixie One', cursive;
+  float: left;
+  line-height: 2vw;
 }
 
 #page1 .dumbo {
@@ -30,6 +177,7 @@
   position: absolute;
   top: 56vw;
   right: 10vw;
+  display: none;
 }
 
 #page1 nav ul {
@@ -55,7 +203,7 @@
 }
 
 #page1 hr {
-  margin: 6vw 0 0;
+  margin: 49.5vw 0 0;
   border-style: solid;
   border-color: #fff;
 }
