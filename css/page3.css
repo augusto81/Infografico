@@ -1,38 +1,38 @@
 #page3 {
   background-color: #f8b948;
-  padding: 30vw 10vw;
+  padding: 30vw 10vw 0;
   position: relative;
   text-align: center;
 }
 
 #page3 .clock {
   position: absolute;
-  width: 20%;
+  width: 18%;
   margin-top: -20vw;
-  left: 25vw;
+  left: 29vw;
 }
 
-#page3 h1 {
+#page3 .hours-amount {
   font-family: 'Slackey', cursive;
   color: #f2f2f2;
-  font-size: 12vw;
+  font-size: 11vw;
   margin-top: -23.4vw;
-  margin-left: 23vw;  
+  margin-left: 22vw;
 }
 
 #page3 .hours {
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
-  font-size: 8vw;
-  margin-top: -12vw;
+  font-size: 7vw;
+  margin-top: -15vw;
   margin-left: 23vw;
 }
 
 #page3 .write {
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
-  font-size: 4.3vw;
-  margin-top: -8.5vw;
+  font-size: 4vw;
+  margin-top: -6vw;
   margin-left: 1vw;
 }
 
@@ -54,8 +54,9 @@
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 1.8vw;
-  top: 65.3vw;
+  top: 66.5vw;
   left: 20.5vw;
+  margin: 0;
 }
 
 #page3 .numbers {
@@ -63,12 +64,13 @@
   color: #63aea7;
   font-family: 'Slackey', cursive;
   padding: 0 2vw;
+  vertical-align: middle;
 }
 
 #page3 nav ul {
   list-style: none;
   position: absolute;
-  top: 29.5vw;
+  top: 30vw;
   right: 10vw;
 }
 
@@ -79,6 +81,8 @@
   border-radius: 100%;
   width: 1.4vw;
   height: 1.4vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #page3 nav li.active a, #page3 nav li:hover a {
@@ -86,7 +90,7 @@
 }
 
 #page3 hr {
-  margin-top: 3vw;
+  margin: 3vw 0 0;
   border-style: solid;
   border-color: #fff;
 }

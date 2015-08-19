@@ -3,22 +3,27 @@
   <head>
     <meta charset="utf-8">
     <title>Infográfico - Histórias de Muitos Amigos</title>
-    <link rel="stylesheet" href="css/normalize.css">
+
     <link href='http://fonts.googleapis.com/css?family=Nixie+One|Slackey' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/page1.css">
     <link rel="stylesheet" href="css/page2.css">
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/page4.css">
     <link rel="stylesheet" href="css/footer.css">
   </head>
+
   <body>
     <header>
-      <p>Uma publicação luso-brasileira</p>
-      <h1>Histórias de muitos <span>amigos</span></h1>
-      <h2>Gerson Jorio</h2>
+      <div class="band"><p class="animated fadeIn">Uma publicação luso-brasileira</p></div>
+      <h1 class="animated bounceInUp" alt="Histórias de Muitos Amigos">Histórias de muitos <span class="animated rubberBand">amigos</span></h1>
+      <h2 class="animated rollIn" alt="Gerson Jorio">Gerson Jorio</h2>
       <div class="arrow-down"></div>
     </header>
+
     <section id="page1">
       <img src="img/flag-1.svg" class="flag-1">
       <p class="characters">190 personagens</p>
@@ -26,38 +31,37 @@
       <img src="img/dumbo.svg" class="dumbo">
       <nav>
         <ul>
-          <li class="active"><a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li class="active"><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <hr>
     </section>
+
     <section id="page2">
-      <h1>238</h1>
-      <p class="composition">histórias bem humoradas <br> compõem a obra</p>
+      <p class="history-amount">238 <span class="composition">histórias bem humoradas compõem a obra</span></p>
       <img src="img/equal.svg" class="equal">
       <img src="img/square.svg" class="square">
-      <h2>07</h2>
-      <p class ="years">anos</p>
-      <p class="cases">acumulando<br>casos</p>
+      <p class="years-amount">07 <span class ="years">anos</span> <span class="cases">acumulando casos</span></p>
       <img src="img/books.svg" class="books">
       <img src="img/flag-1.svg" class="flag-1">
-      <p class="time">Tempo suficiente para lermos 364 livros numa velocidade <br> de 1 livro por semana!</p>
+      <p class="time">Tempo suficiente para lermos 364 livros numa velocidade de 1 livro por semana!</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li class="active"> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <div class="arrow-down2"></div>
     </section>
+
     <section id="page3">
       <img src="img/clock.svg" class="clock">
-      <h1>269</h1>
+      <p class="hours-amount">269</p>
       <p class="hours">horas</p>
       <p class="write">para escrever o livro</p>
       <img src="img/hydrant.svg" class="hydrant">
@@ -65,32 +69,46 @@
       <p class="equivalent">o equivalente a <span class="numbers">30.000</span>"mijadinhas" do Dumbo</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li class="active"> <a href="#page3"></a></li>
-          <li> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
       <hr>
     </section>
+
     <section id="page4">
-      <h1>14.874 km</h1>
+      <p class="kilometers">14.874 km</p>
       <p class="readers">até o livro chegar aos leitores brasileiros.</p>
       <img src="img/map.svg" class="map">
       <img src="img/flag-2.svg" class="flag-2">
-      <p class="travel">o equivalente a uma viagem partindo da cidade de São <br>Paulo até o Alaska, nos Estados Unidos.</p>
+      <p class="travel">o equivalente a uma viagem partindo da cidade de São Paulo até o Alaska, nos Estados Unidos.</p>
       <nav>
         <ul>
-          <li> <a href="#page1"></a></li>
-          <li> <a href="#page2"></a></li>
-          <li> <a href="#page3"></a></li>
-          <li class="active"> <a href="#page4"></a></li>
+          <li><a href="#page1" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page2" onclick="$('#page2').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li><a href="#page3" onclick="$('#page3').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
+          <li class="active"><a href="#page4" onclick="$('#page4').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"></a></li>
         <ul>
       </nav>
     </section>
+
     <footer>
       <p>Boa leitura!</p>
-      <a href="#" class="return"><img src="img/return.svg"></a>
+      <a href="#" class="return" onclick="$('body').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"><img src="img/return.svg"></a>
+      
+      <div class="container">
+        <ul class="social">
+          <li><a href="https://www.facebook.com/pages/Hist%C3%B3rias-de-muitos-amigos/1581903132062531?fref=ts" target='_blank'>Facebook</a></li>
+          <li><a href="mailto:gersonjorio@gmail.com">Email</a></li>
+          <li><a href= "https://www.chiadoeditora.com/autores/gerson-jorio" target='_blank'>Livraria</a></li>
+        </ul>
+      </div>
+    
     </footer>
+
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
   </body>
 </html>

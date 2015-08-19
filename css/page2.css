@@ -1,64 +1,68 @@
 #page2 {
   background-color: #63aea7;
-  padding: 2vw 10vw;
+  padding: 10vw 10vw 0;
   position: relative;
   text-align: center;
 }
 
-#page2 h1 {
+#page2 .history-amount {
   font-family: 'Slackey', cursive;
   color: #f2f2f2;
-  font-size: 12vw;
-  margin-top: -7vw;
-  margin-right: 36vw;
+  font-size: 15vw;
+  margin: 0;
+  margin-left: 8.5vw;
+  width: 35vw;
+  line-height: 16vw;
 }
 
 #page2 .composition {
   font-family: 'Nixie One', cursive;
   color: #4c2b3c;
-  font-size: 1.8vw;
-  margin-top: -10.5vw;
-  margin-right: 36vw;
+  font-size: 2.2vw;
+  height: 4vw;
+  float: left;
+  line-height: 2.5vw;
 }
 
 #page2 .equal {
   position: absolute;
   width: 9.5%;
-  top: 1vw;
-  left: 49.5vw;
+  top: 15vw;
+  left: 54vw;
 }
 
 #page2 .square {
   position: absolute;
-  width: 14%;
-  top: -2.1vw;
-  right: 19vw;
+  width: 17%;
+  top: 10.8vw;
+  left: 64.2vw;
 }
 
-#page2 h2 {
-position: absolute;
-font-size: 6.5vw;
-font-family: 'Slackey', cursive;
-color: #f2f2f2;
-top: -7vw;
-right: 21.5vw; 
+#page2 .years-amount {
+  position: absolute;
+  font-size: 7vw;
+  font-family: 'Slackey', cursive;
+  color: #f2f2f2;
+  top: 4.4vw;
+  left: 68.2vw;
 }
 
 #page2 .years {
-position: absolute;
-font-size: 2.6vw;
-font-family: 'Nixie One', cursive;
-color: #f2f2f2;
-top: 2.9vw;
-right: 23.2vw;
+  position: absolute;
+  font-size: 3.5vw;
+  font-family: 'Nixie One', cursive;
+  color: #f2f2f2;
+  top: 8vw;
+  left: 1vw;
 }
 
 #page2 .cases {
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
-  font-size: 1.8vw;
-  margin-top: -5.5vw;
-  margin-left: 47vw;
+  font-size: 2.2vw;
+  position: absolute;
+  top: 14.6vw;
+  left: -2.2vw;
 }
 
 #page2 .books {
@@ -72,23 +76,26 @@ right: 23.2vw;
   -o-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
-  filter: FlipV;
   -ms-filter: "FlipV";
+  filter: FlipV;
+  margin-top: -3.8vw;
+  margin-bottom: 1vw;
 }
 
 #page2 .time {
   position: absolute;
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
-  font-size: 1.8vw;
-  top: 48vw;
-  left: 23vw;
+  font-size: 2vw;
+  top: 58.5vw;
+  left: 20.2vw;
+  width: 60vw;
 }
 
 #page2 nav ul {
   list-style: none;
   position: absolute;
-  top: 10vw;
+  top: 30vw;
   right: 10vw;
 }
 
@@ -99,6 +106,8 @@ right: 23.2vw;
   border-radius: 100%;
   width: 1.4vw;
   height: 1.4vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #page2 nav li.active a, #page2 nav li:hover a {
@@ -108,11 +117,11 @@ right: 23.2vw;
 #page2 .arrow-down2 {
   position: absolute;
   width: 0vw;
-  left: calc(50% - 1.3vw);
-  bottom: -1.8vw;
-  border-left: 1.3vw solid transparent;
-  border-right: 1.3vw solid transparent;
-  border-top: 1.9vw solid #63aea7;
+  left: calc(50% - 2vw);
+  bottom: -2.4vw;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-top: 2.5vw solid #63aea7;
   z-index:1;
 }
 

@@ -1,40 +1,38 @@
 #page4 {
-	background-color: #f8b948;
+  background-color: #f8b948;
   padding: 2vw 10vw;
   position: relative;
   text-align: center;
 }
 
-#page4 h1 {
+#page4 .kilometers {
   font-family: 'Slackey', cursive;
-  font-size: 7vw;
+  font-size: 8vw;
   color: #4c2b3c;
   float: left;
-  margin-top: -25vw;
-  margin-left: 4vw;
-  width: 52%;
+  margin-top: 6vw;
+  margin-left: 3vw;
 }
 
 #page4 .readers {
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
-  font-size: 2.4vw;
-  float: right;
-  width: 33%;
-  margin-top: -22.8vw;
-  padding-right: 7vw;
+  font-size: 2.8vw;
   text-align: left;
+  position: absolute;
+  top: 7.5vw;
+  left: 59vw;
+  width: 32vw;
 }
 
 #page4 .map {
-  width: 72%;
-  margin-top: -8vw;
-  margin-right: 2.2vw;
+  width: 82%;
+  margin-top: -4vw;
 }
 
 #page4 .flag-2 {
   width: 100%;
-  margin-top: 4vw;  
+  margin-top: 4vw;
 }
 
 #page4 .travel {
@@ -42,14 +40,15 @@
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 2vw;
-  margin-top: -8vw;
-  margin-left: 12.2vw;
+  top: 62.5vw;
+  left: 22.4vw;
+  width: 55vw;
 }
 
 #page4 nav ul {
   list-style: none;
   position: absolute;
-  bottom: 23vw;
+  top: 30vw;
   right: 10vw;
 }
 
@@ -60,9 +59,11 @@
   border-radius: 100%;
   width: 1.4vw;
   height: 1.4vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
-#page4 nav li.active a, #page3 nav li:hover a {
+#page4 nav li.active a, #page4 nav li:hover a {
   background-color: #f2f2f2;
 }
 
