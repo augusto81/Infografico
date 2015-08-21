@@ -6,13 +6,16 @@
 }
 
 #page2 .history-amount {
+  position: absolute;
+  top: 10vw;
+  left: 18.5vw;
   font-family: 'Slackey', cursive;
   color: #f2f2f2;
   font-size: 15vw;
   margin: 0;
-  margin-left: 8.5vw;
   width: 35vw;
   line-height: 16vw;
+  display: none;
 }
 
 #page2 .composition {
@@ -29,6 +32,7 @@
   width: 9.5%;
   top: 15vw;
   left: 54vw;
+  display: none;
 }
 
 #page2 .square {
@@ -36,6 +40,7 @@
   width: 17%;
   top: 10.8vw;
   left: 64.2vw;
+  display: none;
 }
 
 #page2 .years-amount {
@@ -45,9 +50,10 @@
   color: #f2f2f2;
   top: 4.4vw;
   left: 68.2vw;
+  display: none;
 }
 
-#page2 .years {
+#page2 .years-label {
   position: absolute;
   font-size: 3.5vw;
   font-family: 'Nixie One', cursive;
@@ -56,7 +62,7 @@
   left: 1vw;
 }
 
-#page2 .cases {
+#page2 .years-description {
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 2.2vw;
@@ -65,20 +71,65 @@
   left: -2.2vw;
 }
 
-#page2 .books {
-  width: 78%;
-  margin-top: 5vw;
+#page2 .book-1 {
+  position: absolute;
+  top: 34.8vw;
+  left: 18.9vw;
+  width: 12vw;
+  display: none;
+}
+#page2 .book-2 {
+  position: absolute;
+  top: 35.8vw;
+  left: 29.1vw;
+  width: 8vw;
+  display: none;
+}
+#page2 .book-3 {
+  position: absolute;
+  top: 38.7vw;
+  left: 34.8vw;
+  width: 8.2vw;
+  display: none;
+}
+#page2 .book-4 {
+  position: absolute;
+  top: 38.7vw;
+  left: 42vw;
+  width: 11vw;
+  display: none;
+}
+#page2 .book-5 {
+  position: absolute;
+  top: 40.9vw;
+  left: 50.3vw;
+  width: 10vw;
+  display: none;
+}
+#page2 .book-6 {
+  position: absolute;
+  top: 35.2vw;
+  left: 57.2vw;
+  width: 14vw;
+  display: none;
+}
+#page2 .book-7 {
+  position: absolute;
+  top: 37vw;
+  left: 68.6vw;
+  width: 14vw;
+  display: none;
 }
 
 #page2 .flag-1 {
-  width: 100%;
   -moz-transform: scaleY(-1);
   -o-transform: scaleY(-1);
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
   -ms-filter: "FlipV";
   filter: FlipV;
-  margin-top: -3.8vw;
+  width: 100%;
+  margin-top: 44.8vw;
   margin-bottom: 1vw;
 }
 

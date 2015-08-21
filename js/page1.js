@@ -2,7 +2,7 @@ $(function() {
   var showed = false;
 
   $(window).scroll(function() {
-    if ($(document).scrollTop() >= $('#page1').position().top && !showed) {
+    if ($(document).scrollTop() >= $('#page1').position().top && $(document).scrollTop() < $('#page2').position().top && !showed) {
       showed = true;
 
       $('#page1 .characters').typed({strings: ['190 personagens'], typeSpeed: 50, showCursor: false, callback: function() {
