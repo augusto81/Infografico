@@ -28,7 +28,7 @@ footer .bookstores {
 
 footer .bookstores a {
   color: #fb6d45;
-  font-size: 2vw;
+  font-size: 1.9vw;
   font-weight: bold;
   text-decoration: none;
 }
@@ -46,7 +46,7 @@ footer .bookstores a:before {
   content: "";
   display: inline-block;
   width: 5vw;
-  height: 5vw;
+  height: 5.2vw;
   background-image: url(../img/cart.svg);
   background-size: 5vw;
   vertical-align: middle;
@@ -66,15 +66,17 @@ footer .social {
 
 footer .social li {
   display: inline-block;
-  margin: 0 1vw;
+  margin: 0 2vw;
 }
 
 footer .social li a {
-  height: 4vw;
-  width: 4vw;
-  background-size: 4vw;
+  height: 6vw;
+  width: 7vw;
+  background-size: 6vw;
+  padding-right: 2.7vw;
   display: block;
   text-indent: -9999vw;
+  background-repeat: no-repeat;
 }
 
 footer .social li a:hover {
@@ -91,6 +93,8 @@ footer .social .facebook {
 
 footer .social .email {
   background-image: url(../img/email.svg);
+  background-size: 6.9vw;
+  padding-top: 0.4vw;
 }
 
 footer .return img {
