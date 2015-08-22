@@ -41,6 +41,18 @@ header h2 {
   margin: 1vw 0 0;
 }
 
+header .down img {
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  -ms-filter: "FlipV";
+  filter: FlipV;
+  width: 5%;
+  margin-left: 91vw;
+  margin-bottom: -9vw;
+}
+
 header .arrow-down {
   position: absolute;
   width: 0vw;
