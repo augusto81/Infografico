@@ -1,25 +1,40 @@
-<svg xmlns:x="http://ns.adobe.com/Extensibility/1.0/" xmlns:i="http://ns.adobe.com/AdobeIllustrator/10.0/" xmlns:graph="http://ns.adobe.com/Graphs/1.0/" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="175.492px" height="154.492px" viewBox="0 0 175.492 154.492" enable-background="new 0 0 175.492 154.492" xml:space="preserve">
-  <switch>
-    <foreignObject requiredExtensions="http://ns.adobe.com/AdobeIllustrator/10.0/" x="0" y="0" width="1" height="1">
-      <i:pgfRef xlink:href="#adobe_illustrator_pgf"/>
-    </foreignObject>
-    <g i:extraneous="self">
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+  <!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+  <!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+  <!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+  <!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
+  <!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
+  <!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
+  <!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
+  <!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+   xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="175.492px"
+   height="154.492px" viewBox="0 0 175.492 154.492" enable-background="new 0 0 175.492 154.492" xml:space="preserve">
+<switch>
+  <foreignObject requiredExtensions="&ns_ai;" x="0" y="0" width="1" height="1">
+    <i:pgfRef  xlink:href="#adobe_illustrator_pgf">
+    </i:pgfRef>
+  </foreignObject>
+  <g i:extraneous="self">
+    <g>
+      <path fill="#63AEA7" d="M162.555,77.836c0,41.789-37.078,73.18-78.393,73.18c-41.316,0-71.227-31.391-71.227-73.18
+        c0-41.785,34.76-74.359,76.076-74.359C130.325,3.477,162.555,36.051,162.555,77.836z"/>
       <g>
-        <path fill="#63AEA7" d="M162.555 77.836c0 41.789-37.078 73.18-78.393 73.18 -41.316 0-71.227-31.391-71.227-73.18 0-41.785 34.76-74.359 76.076-74.359C130.325 3.477 162.555 36.051 162.555 77.836z"/>
+        <path fill="#F2F2F2" d="M155.262,77.836c0,37.715-30.229,68.287-67.516,68.287c-37.289,0-67.516-30.572-67.516-68.287
+          c0-37.711,30.227-68.281,67.516-68.281C125.034,9.555,155.262,40.125,155.262,77.836z"/>
         <g>
-          <path fill="#F2F2F2" d="M155.262 77.836c0 37.715-30.229 68.287-67.516 68.287 -37.289 0-67.516-30.572-67.516-68.287 0-37.711 30.227-68.281 67.516-68.281C125.034 9.555 155.262 40.125 155.262 77.836z"/>
-          <polygon fill="#4C2B3C" points="88.383 79.006 86.196 79.006 85.76 38.58 88.614 38.291 "/>
-          <polygon fill="#4C2B3C" points="86.196 79.006 86.196 76.82 126.295 76.146 126.426 79.477 "/>
-          <g>
-            <rect x="86.481" y="17.4" fill="#4C2B3C" width="2.531" height="12.854"/>
-            <rect x="86.481" y="125.418" fill="#4C2B3C" width="2.531" height="12.855"/>
-          </g>
-          <g>
-            <rect x="135.096" y="76.572" fill="#4C2B3C" width="12.857" height="2.529"/>
-            <rect x="27.54" y="76.572" fill="#4C2B3C" width="12.855" height="2.529"/>
-          </g>
+          <rect x="86.481" y="17.4" fill="#4C2B3C" width="2.531" height="12.854"/>
+          <rect x="86.481" y="125.418" fill="#4C2B3C" width="2.531" height="12.855"/>
+        </g>
+        <g>
+          <rect x="135.096" y="76.572" fill="#4C2B3C" width="12.857" height="2.529"/>
+          <rect x="27.54" y="76.572" fill="#4C2B3C" width="12.855" height="2.529"/>
         </g>
       </g>
     </g>
-  </switch>
+  </g>
+</switch>
 </svg>

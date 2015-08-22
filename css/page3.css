@@ -8,44 +8,102 @@
 #page3 .clock {
   position: absolute;
   width: 18%;
-  margin-top: -20vw;
+  top: 10vw;
   left: 29vw;
+  display: none;
+}
+
+#page3 .minutes-pointer {
+  position: absolute;
+  top: 17.8vw;
+  left: 33.5vw;
+  width: 9vw;
+  height: 0.3vw;
+  display: none;
+}
+#page3 .minutes-pointer span {
+  display: block;
+  background-color: #4C2B3B;
+  width: 50%;
+  height: 100%;
+}
+
+#page3 .hours-pointer {
+  position: absolute;
+  top: 17.8vw;
+  left: 34.3vw;
+  width: 7.5vw;
+  height: 0.3vw;
+  display: none;
+}
+#page3 .hours-pointer span {
+  display: block;
+  background-color: #4C2B3B;
+  width: 50%;
+  height: 100%;
 }
 
 #page3 .hours-amount {
+  position: absolute;
+  top: 6.8vw;
+  left: 49.8vw;
   font-family: 'Slackey', cursive;
   color: #f2f2f2;
   font-size: 11vw;
-  margin-top: -23.4vw;
-  margin-left: 22vw;
+  margin: 0;
+  display: none;
 }
 
 #page3 .hours {
+  position: absolute;
+  top: 18.3vw;
+  left: 51.3vw;
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 7vw;
-  margin-top: -15vw;
-  margin-left: 23vw;
+  margin: 0;
+  display: none;
 }
 
 #page3 .write {
+  position: absolute;
+  top: 27.2vw;
+  left: 29.8vw;
   font-family: 'Nixie One', cursive;
   color: #f2f2f2;
   font-size: 4vw;
-  margin-top: -6vw;
-  margin-left: 1vw;
+  margin: 0;
+  display: none;
+}
+
+#page3 .dumbo-peeing {
+  position: absolute;
+  top: 39.5vw;
+  left: 34.5vw;
+  width: 31%;
+  display: none;
+}
+
+#page3 .pee {
+  border-left: dashed .4vw #D18F30;
+  border-top-left-radius: 120px;
+  position: absolute;
+  top: 56vw;
+  left: 48.6vw;
+  height: 9vw;
+  width: 9vw;
+  display: none;
 }
 
 #page3 .hydrant {
-  display: absolute;
-  width: 38%;
-  margin-top: 4.1vw;
-  margin-bottom: -2.5vw;
-  z-index: 1;
+  position: absolute;
+  top: 48.8vw;
+  left: 51.2vw;
+  width: 13.5%;
 }
 
 #page3 .flag-2 {
-  display: absolute;
+  margin-top: 32.7vw;
   width: 100%;
 }
 
@@ -57,6 +115,7 @@
   top: 66.5vw;
   left: 20.5vw;
   margin: 0;
+  line-height: 6.8vw;
 }
 
 #page3 .numbers {
