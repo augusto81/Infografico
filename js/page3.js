@@ -2,7 +2,7 @@ $(function() {
   var showed = false;
 
   $(window).scroll(function() {
-    if ($(document).scrollTop() >= $('#page3').position().top && $(document).scrollTop() < $('#page4').position().top && !showed) {
+    if ($(document).scrollTop() >= $('#page3').position().top - 1 && $(document).scrollTop() < $('#page4').position().top && !showed) {
       showed = true;
 
       $('#page3 .hours-amount').addClass("animated bounceInRight").show();

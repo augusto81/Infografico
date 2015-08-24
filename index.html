@@ -4,10 +4,7 @@
     <meta charset="utf-8">
     <title>Infográfico - Histórias de Muitos Amigos</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Nixie+One|Slackey' rel='stylesheet' type='text/css'>
-
-    <!--[if IE]><link rel="shortcut icon" href="img/favicon.ico"><![endif]-->
-    <link rel="icon" href="img/favicon.ico" />
+    <link rel="shortcut icon" href="img/favicon.ico">
 
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -17,6 +14,8 @@
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/page4.css">
     <link rel="stylesheet" href="css/footer.css">
+
+    <link href='http://fonts.googleapis.com/css?family=Nixie+One|Slackey' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
@@ -26,8 +25,7 @@
       <h2 class="animated rollIn">Gerson Jorio</h2>
       <div class="arrow-down"></div>
 
-      <a href="#" class="down" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce', padding:-120})"><img src="img/return.svg"></a>
-
+      <a href="#" class="down animated infinite pulse" onclick="$('#page1').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"><img src="img/return.svg"></a>
     </header>
 
     <section id="page1">
@@ -138,7 +136,7 @@
         <li><a class="email" href="mailto:gersonjorio@gmail.com">E-mail</a></li>
       </ul>
 
-      <a href="#" class="return" onclick="$('body').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"><img src="img/return.svg"></a>
+      <a href="#" class="return animated infinite pulse" onclick="$('body').animatescroll({scrollSpeed: 2000, easing: 'easeOutBounce'})"><img src="img/return.svg"></a>
     </footer>
 
     <script src="js/jquery-1.8.3.min.js"></script>

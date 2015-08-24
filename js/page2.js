@@ -2,7 +2,7 @@ $(function() {
   var showed = false;
 
   $(window).scroll(function() {
-    if ($(document).scrollTop() >= $('#page2').position().top && $(document).scrollTop() < $('#page3').position().top && !showed) {
+    if ($(document).scrollTop() >= $('#page2').position().top - 1 && $(document).scrollTop() < $('#page3').position().top && !showed) {
       showed = true;
 
       $('#page2 .history-amount').addClass("animated bounceInLeft").show();
