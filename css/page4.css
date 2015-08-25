@@ -9,9 +9,10 @@
   font-family: 'Slackey', cursive;
   font-size: 8vw;
   color: #4c2b3c;
-  float: left;
-  margin-top: 6vw;
-  margin-left: 3vw;
+  position: absolute;
+  top: 0vw;
+  left: 13vw;
+  display: none;
 }
 
 #page4 .readers {
@@ -23,16 +24,60 @@
   top: 7.5vw;
   left: 59vw;
   width: 32vw;
+  display: none;
 }
 
 #page4 .map {
-  width: 82%;
-  margin-top: -4vw;
+  position: absolute;
+  top: 23.3vw;
+  left: 17vw;
+  width: 66%;
+  display: none;
+}
+
+#page4 .map-line {
+  border-right: dashed .3vw #63AEA7;
+  border-top: dashed .3vw #63AEA7;
+  border-top-right-radius: 220px;
+  position: absolute;
+  top: 30.5vw;
+  left: 23vw;
+  height: 17vw;
+  width: 18.5vw;
+  display: none;
+}
+#page4 .map-line:before {
+  content: "";
+  background-color: #63AEA7;
+  border-radius: 100%;
+  position: absolute;
+  bottom: -1.2vw;
+  right: -0.6vw;
+  width: 1vw;
+  height: 1vw;
+}
+#page4 .map-line:after {
+  content: "";
+  background-color: #63AEA7;
+  border-radius: 100%;
+  position: absolute;
+  top: -0.6vw;
+  left: -0.5vw;
+  width: 1vw;
+  height: 1vw;
+}
+
+#page4 .car {
+  position: absolute;
+  top: 34.5vw;
+  left: 38.5vw;
+  width: 7%;
+  display: none;
 }
 
 #page4 .flag-2 {
   width: 100%;
-  margin-top: 4vw;
+  margin-top: 57.8vw;
 }
 
 #page4 .travel {
@@ -43,6 +88,7 @@
   top: 62.5vw;
   left: 22.4vw;
   width: 55vw;
+  height: 5vw;
 }
 
 #page4 nav ul {
