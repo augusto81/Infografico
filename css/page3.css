@@ -3,6 +3,7 @@
   padding: 30vw 10vw 0;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 #page3 .clock {
