@@ -3,6 +3,7 @@
   padding: 10vw 10vw 0;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 #page2 .history-amount {
@@ -161,15 +162,3 @@
 #page2 nav li.active a, #page2 nav li:hover a {
   background-color: #f2f2f2;
 }
-
-#page2 .arrow-down2 {
-  position: absolute;
-  width: 0vw;
-  left: calc(50% - 2vw);
-  bottom: -2.4vw;
-  border-left: 2vw solid transparent;
-  border-right: 2vw solid transparent;
-  border-top: 2.5vw solid #63aea7;
-  z-index:1;
-}
-

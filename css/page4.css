@@ -3,6 +3,7 @@
   padding: 2vw 10vw;
   position: relative;
   text-align: center;
+  overflow: hidden;
 }
 
 #page4 .kilometers {
