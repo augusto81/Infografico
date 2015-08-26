@@ -63,16 +63,3 @@ header .arrow-down-1 {
   border-top: 2.5vw solid #4c2b3c;
   z-index: 1;
 }
-
-header .arrow-down-2 {
-  position: absolute;
-  width: 0vw;
-  left: calc(50% - 2vw);
-  top: 183.4vw;
-  border-left: 2vw solid transparent;
-  border-right: 2vw solid transparent;
-  border-top: 2.5vw solid #63aea7;
-  z-index:1;
-}
-
-

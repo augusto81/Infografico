@@ -64,11 +64,7 @@ $(function() {
         }, 550);
 
         setTimeout(function() {
-          $('#page3 .equivalent').typed({strings: ['o equivalente a <span class="numbers">30.000</span>"mijadinhas" do Dumbo'], typeSpeed: 50, showCursor: false, callback: function() {
-            setTimeout(function() {
-              $('#page3 .hydrant').addClass("animated hinge").show();
-            }, 500);
-          }});
+          $('#page3 .equivalent').typed({strings: ['o equivalente a <span class="numbers">30.000</span>"mijadinhas" do Dumbo'], typeSpeed: 50, showCursor: false});
         }, 1200);
       }
     }, 15);

@@ -6,6 +6,17 @@
   overflow: hidden;
 }
 
+#page3 .arrow-down-2 {
+  position: absolute;
+  width: 0vw;
+  left: calc(50% - 2vw);
+  top: 0vw;
+  border-left: 2vw solid transparent;
+  border-right: 2vw solid transparent;
+  border-top: 2.5vw solid #63aea7;
+  z-index:1;
+}
+
 #page3 .clock {
   position: absolute;
   width: 18%;
@@ -87,7 +98,7 @@
 
 #page3 .pee {
   border-left: dashed .4vw #D18F30;
-  border-top-left-radius: 120px;
+  border-top-left-radius: 9vw;
   position: absolute;
   top: 56vw;
   left: 48.6vw;
