@@ -3,7 +3,7 @@ $(function() {
 
   $(window).scroll(function() {
     var atPage4 = $(document).scrollTop() >= $('#page4').position().top - 1 && $(document).scrollTop() < $('footer').position().top;
-    var endOfPage = $(document).scrollTop() + window.innerHeight == $(document).height();
+    var endOfPage = $(document).scrollTop() + window.innerHeight > $(document).height() - 50;
 
     if ((atPage4 || endOfPage) && !showed) {
       showed = true;
