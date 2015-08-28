@@ -55,28 +55,28 @@ footer .bookstores a:before {
 footer .cultura {
   float: left;
 }
-body.portugal .cultura {
+body.portugal footer .cultura {
   display: none;
 }
 
 footer .chiadoreal {
   float: right;
 }
-body.portugal .chiadoreal {
+body.portugal footer .chiadoreal {
   display: none;
 }
 
 footer .bertrand {
   float: left;
 }
-body:not(.portugal) .bertrand {
+body:not(.portugal) footer .bertrand {
   display: none;
 }
 
 footer .chiadolibra {
   float: right;
 }
-body:not(.portugal) .chiadolibra {
+body:not(.portugal) footer .chiadolibra {
   display: none;
 }
 
