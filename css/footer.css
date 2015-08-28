@@ -56,7 +56,15 @@ footer .cultura {
   float: left;
 }
 
-footer .chiado {
+footer .chiadoreal {
+  float: right;
+}
+
+footer .bertrand {
+  float: left;
+}
+
+footer .chiadolibra {
   float: right;
 }
 
